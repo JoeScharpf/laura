@@ -23,7 +23,7 @@ class search:
     return - 1
 
 class solution:
-  def valdi_parentheses(self, s):
+  def valid_parentheses(self, s):
     stack = []
     brackets = {')': '(', '}': '{', ']': '['}
     for i in s:
